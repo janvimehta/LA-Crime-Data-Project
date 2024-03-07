@@ -1,0 +1,280 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\Fall 2023\Dadabi\Individual project 1\Crime_Data_from_2020_to_Present_4102023.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Crime_Data_from_2020_to_Present_4102023.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="DR_NO" size="254" source="File: D:\Fall 2023\Dadabi\Individual project 1\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Date Rptd" size="254" source="File: D:\Fall 2023\Dadabi\Individual project 1\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="DATE OCC" size="254" source="File: D:\Fall 2023\Dadabi\Individual project 1\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="TIME OCC" size="254" source="File: D:\Fall 2023\Dadabi\Individual project 1\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="AREA" size="254" source="File: D:\Fall 2023\Dadabi\Individual project 1\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="AREA NAME" size="254" source="File: D:\Fall 2023\Dadabi\Individual project 1\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Rpt Dist No" size="254" source="File: D:\Fall 2023\Dadabi\Individual project 1\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Part 1-2" size="254" source="File: D:\Fall 2023\Dadabi\Individual project 1\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Crm Cd" size="254" source="File: D:\Fall 2023\Dadabi\Individual project 1\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Crm Cd Desc" size="254" source="File: D:\Fall 2023\Dadabi\Individual project 1\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Mocodes" size="254" source="File: D:\Fall 2023\Dadabi\Individual project 1\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Vict Age" size="254" source="File: D:\Fall 2023\Dadabi\Individual project 1\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Vict Sex" size="254" source="File: D:\Fall 2023\Dadabi\Individual project 1\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Vict Descent" size="254" source="File: D:\Fall 2023\Dadabi\Individual project 1\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Premis Cd" size="254" source="File: D:\Fall 2023\Dadabi\Individual project 1\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Premis Desc" size="254" source="File: D:\Fall 2023\Dadabi\Individual project 1\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Weapon Used Cd" size="254" source="File: D:\Fall 2023\Dadabi\Individual project 1\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Weapon Desc" size="254" source="File: D:\Fall 2023\Dadabi\Individual project 1\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Status" size="254" source="File: D:\Fall 2023\Dadabi\Individual project 1\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Status Desc" size="254" source="File: D:\Fall 2023\Dadabi\Individual project 1\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Crm Cd 1" size="254" source="File: D:\Fall 2023\Dadabi\Individual project 1\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Crm Cd 2" size="254" source="File: D:\Fall 2023\Dadabi\Individual project 1\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Crm Cd 3" size="254" source="File: D:\Fall 2023\Dadabi\Individual project 1\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Crm Cd 4" size="254" source="File: D:\Fall 2023\Dadabi\Individual project 1\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="LOCATION" size="254" source="File: D:\Fall 2023\Dadabi\Individual project 1\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Cross Street" size="254" source="File: D:\Fall 2023\Dadabi\Individual project 1\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="LAT" size="254" source="File: D:\Fall 2023\Dadabi\Individual project 1\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="LON" size="254" source="File: D:\Fall 2023\Dadabi\Individual project 1\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="282" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="DR_NO" action="CountNull" rename="CountNull_DR_NO" />
+            <SummarizeField field="Date Rptd" action="CountNull" rename="CountNull_Date Rptd" />
+            <SummarizeField field="DATE OCC" action="CountNull" rename="CountNull_DATE OCC" />
+            <SummarizeField field="TIME OCC" action="CountNull" rename="CountNull_TIME OCC" />
+            <SummarizeField field="AREA" action="CountNull" rename="CountNull_AREA" />
+            <SummarizeField field="AREA NAME" action="CountNull" rename="CountNull_AREA NAME" />
+            <SummarizeField field="Rpt Dist No" action="CountNull" rename="CountNull_Rpt Dist No" />
+            <SummarizeField field="Part 1-2" action="CountNull" rename="CountNull_Part 1-2" />
+            <SummarizeField field="Crm Cd" action="CountNull" rename="CountNull_Crm Cd" />
+            <SummarizeField field="Crm Cd Desc" action="CountNull" rename="CountNull_Crm Cd Desc" />
+            <SummarizeField field="Mocodes" action="CountNull" rename="CountNull_Mocodes" />
+            <SummarizeField field="Vict Age" action="CountNull" rename="CountNull_Vict Age" />
+            <SummarizeField field="Vict Sex" action="CountNull" rename="CountNull_Vict Sex" />
+            <SummarizeField field="Vict Descent" action="CountNull" rename="CountNull_Vict Descent" />
+            <SummarizeField field="Premis Cd" action="CountNull" rename="CountNull_Premis Cd" />
+            <SummarizeField field="Premis Desc" action="CountNull" rename="CountNull_Premis Desc" />
+            <SummarizeField field="Weapon Used Cd" action="CountNull" rename="CountNull_Weapon Used Cd" />
+            <SummarizeField field="Weapon Desc" action="CountNull" rename="CountNull_Weapon Desc" />
+            <SummarizeField field="Status" action="CountNull" rename="CountNull_Status" />
+            <SummarizeField field="Status Desc" action="CountNull" rename="CountNull_Status Desc" />
+            <SummarizeField field="Crm Cd 1" action="CountNull" rename="CountNull_Crm Cd 1" />
+            <SummarizeField field="Crm Cd 2" action="CountNull" rename="CountNull_Crm Cd 2" />
+            <SummarizeField field="Crm Cd 3" action="CountNull" rename="CountNull_Crm Cd 3" />
+            <SummarizeField field="Crm Cd 4" action="CountNull" rename="CountNull_Crm Cd 4" />
+            <SummarizeField field="LOCATION" action="CountNull" rename="CountNull_LOCATION" />
+            <SummarizeField field="Cross Street" action="CountNull" rename="CountNull_Cross Street" />
+            <SummarizeField field="LAT" action="CountNull" rename="CountNull_LAT" />
+            <SummarizeField field="LON" action="CountNull" rename="CountNull_LON" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="498" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\JANVI\AppData\Local\Temp\Engine_10948_e04f8441a449b64f9541f9ca5cab6a2e_\Engine_10948_198ce1b4d92cf842abb03c648e3b4783~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+        <Position x="258" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Limit_UniqueCount>10000</Limit_UniqueCount>
+          <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+          <IsMetric value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="546" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\JANVI\AppData\Local\Temp\Engine_10948_e04f8441a449b64f9541f9ca5cab6a2e_\Engine_10948_b666c959a07f6e4abce15ca71fb6ad6e~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="414" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\JANVI\AppData\Local\Temp\Engine_10948_e04f8441a449b64f9541f9ca5cab6a2e_\Engine_10948_4805be590673a943b0c02937afa78d2e~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>IndividualProject1_JanviMehta</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="758a3271-db43-400f-b2a3-2a945df9cd79" />
+      <Telemetry>
+        <PreviousWorkflowId value="8a289e4a-d363-4b9c-b115-f5ae4d341e63" />
+        <OriginWorkflowId value="5af7b814-77b5-420f-9d62-0b6d53bf676b" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

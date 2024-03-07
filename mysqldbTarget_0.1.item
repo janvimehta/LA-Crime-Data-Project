@@ -1,27 +1,43 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmi:version="2.0">
-  <TalendMetadata:DatabaseConnection AdditionalParams="context.mysqldbTarget1_AdditionalParams" ContextId="_6Wp9EGScEe6s0fI85jycNQ" ContextMode="true" DBRootPath="" DatabaseType="MySQL" DatasourceName="" DbmsId="mysql_id" DriverClass="com.mysql.cj.jdbc.Driver" DriverJarPath="" FileFieldName="" NullChar="" Password="context.mysqldbTarget1_Password" Port="context.mysqldbTarget1_Port" ProductId="MYSQL" SID="context.mysqldbTarget1_Database" SQLMode="false" ServerName="context.mysqldbTarget1_Server" SqlSynthax="" StandardSQL="true" StringQuote="" URL="jdbc:mysql://localhost:3306/lacrimedata?noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" UiSchema="" Username="context.mysqldbTarget1_Login" contextName="Default" dataPackage="_9Y5mEGScEe6s0fI85jycNQ" dbVersionString="MYSQL_8" id="__hJJYGP2Ee6wEN0bUIFaRw" label="mysqldbTarget" name="mysqldbTarget" supportNLS="false" xmi:id="__UA24GP3Ee6wEN0bUIFaRw">
-    <taggedValue tag="Is Conn Need Reload" value="false" xmi:id="__UYqUGP3Ee6wEN0bUIFaRw"/>
-    <taggedValue tag="package filter" value="" xmi:id="__VdBUGP3Ee6wEN0bUIFaRw"/>
-    <taggedValue tag="Status" value="" xmi:id="__VsR4GP3Ee6wEN0bUIFaRw"/>
-    <taggedValue tag="Version" value="0.1" xmi:id="__VsR4WP3Ee6wEN0bUIFaRw"/>
-    <taggedValue tag="Purpose" value="" xmi:id="__VsR4mP3Ee6wEN0bUIFaRw"/>
-    <taggedValue tag="Description" value="" xmi:id="__VsR42P3Ee6wEN0bUIFaRw"/>
-    <taggedValue tag="Author" value="" xmi:id="__VsR5GP3Ee6wEN0bUIFaRw"/>
-    <taggedValue tag="otherParameter" xmi:id="__VsR5WP3Ee6wEN0bUIFaRw"/>
-    <taggedValue tag="DB ProductName" value="MySQL" xmi:id="__WgKMGP3Ee6wEN0bUIFaRw"/>
-    <taggedValue tag="DB ProductVersion" value="8.0.31" xmi:id="__WgKMWP3Ee6wEN0bUIFaRw"/>
-    <taggedValue tag="DB IdentifierQuoteString" value="`" xmi:id="__WgKMmP3Ee6wEN0bUIFaRw"/>
-    <parameters key="CONN_PARA_KEY_USERNAME" value="context.mysqldbTarget1_Login" xmi:id="__UYqUWP3Ee6wEN0bUIFaRw"/>
-    <parameters key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value="" xmi:id="_Sk3KkGP6Ee6wEN0bUIFaRw"/>
-  </TalendMetadata:DatabaseConnection>
-  <orgomg.cwm.resource.relational:Catalog dataManager="__UA24GP3Ee6wEN0bUIFaRw" name="lacrimedata" xmi:id="_9Y5mEGScEe6s0fI85jycNQ"/>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_0957d624-ca68-4db3-ab5b-f8e4abe8fc34"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>M1txeQqXtp8iGFgw9LuKPH4yMEfrCxZ8G5cihLp0nAkwIjJ8/+rzYiUE2m1/M5tETO7wZHm9pXHY&#13;
-5CLo0ByKFg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_e1cccab5-b3aa-4bad-be6a-4d7c50b1173a"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ARyjNxmK+3X/Yi76hYxCXXUrQ4KoQ3x59kANOYBGi06Lv/yRWR/5cFExdN79EG2dIQinBYHPT3F+&#13;
-v62fAdJYzg==</DigestValue></Reference></SignedInfo><SignatureValue>V2p/PpcTHEvbdZGpVkIbJLoLkaA8NuIabHfesTPtV48C6TNWypkTvuHdQbWw1kiq9x4wdl7W/O/b&#13;
-cztFSTX+V1yBbi7wj73Ztn3FaVZQutnO8kpwC84glUFgIM64VGSPgekFS37uq8JIiVLGIFoE60WU&#13;
-O8PGpKYHWmXWAjVpV1qBQrr2vDCiuoDU0XAbsLPaNq/iL/tr0GI2VceMIaaiu/8BzGEQvHrunfov&#13;
-PTji+F6wcBqNbqF5SJqZkMyKrWID/O9VgNHxS+rWd5+0/kI17aCw/gcbOH5tZ3AI16zpOh+cmdLS&#13;
-tLhCQO5KFi2BpP9VUMVOPB2eCNYl9VbkWOlXbQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_6ZDRYGP6Ee6wEN0bUIFaRw">
+    <contextParameter comment="" name="mysqldbTarget_Port" prompt="mysqldbTarget_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306" xmi:id="_6ZDRYWP6Ee6wEN0bUIFaRw"/>
+    <contextParameter comment="" name="mysqldbTarget_Login" prompt="mysqldbTarget_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="root" xmi:id="_6ZDRYmP6Ee6wEN0bUIFaRw"/>
+    <contextParameter comment="" name="mysqldbTarget_Database" prompt="mysqldbTarget_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="lacrimedata" xmi:id="_6ZDRY2P6Ee6wEN0bUIFaRw"/>
+    <contextParameter comment="" name="mysqldbTarget_Server" prompt="mysqldbTarget_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" xmi:id="_6ZDRZGP6Ee6wEN0bUIFaRw"/>
+    <contextParameter comment="" name="mysqldbTarget_AdditionalParams" prompt="mysqldbTarget_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" xmi:id="_6ZDRZWP6Ee6wEN0bUIFaRw"/>
+    <contextParameter comment="" name="mysqldbTarget_Password" prompt="mysqldbTarget_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:vZGOQNz2SAESgh3iFlbP4Us/i4neIV7HpiNu/mRhImwcywQ+5ZuPTA==" xmi:id="_6ZDRZmP6Ee6wEN0bUIFaRw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Development" xmi:id="_FQ7AkGQAEe6wEN0bUIFaRw">
+    <contextParameter comment="" name="mysqldbTarget_Port" prompt="mysqldbTarget_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306" xmi:id="_FQ7AkWQAEe6wEN0bUIFaRw"/>
+    <contextParameter comment="" name="mysqldbTarget_Login" prompt="mysqldbTarget_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="root" xmi:id="_FQ7AkmQAEe6wEN0bUIFaRw"/>
+    <contextParameter comment="" name="mysqldbTarget_Database" prompt="mysqldbTarget_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="lacrimedata" xmi:id="_FQ7Ak2QAEe6wEN0bUIFaRw"/>
+    <contextParameter comment="" name="mysqldbTarget_Server" prompt="mysqldbTarget_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" xmi:id="_FQ7AlGQAEe6wEN0bUIFaRw"/>
+    <contextParameter comment="" name="mysqldbTarget_AdditionalParams" prompt="mysqldbTarget_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" xmi:id="_FQ7AlWQAEe6wEN0bUIFaRw"/>
+    <contextParameter comment="" name="mysqldbTarget_Password" prompt="mysqldbTarget_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:aoBDAkmgbIXs8A0+99QZ2nXT0u46xTZ7THtwveYQ2R2IDO9Jb4+TGg==" xmi:id="_FQ7AlmQAEe6wEN0bUIFaRw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Production" xmi:id="_FQ7Al2QAEe6wEN0bUIFaRw">
+    <contextParameter comment="" name="mysqldbTarget_Port" prompt="mysqldbTarget_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306" xmi:id="_FQ7AmGQAEe6wEN0bUIFaRw"/>
+    <contextParameter comment="" name="mysqldbTarget_Login" prompt="mysqldbTarget_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="root" xmi:id="_FQ7AmWQAEe6wEN0bUIFaRw"/>
+    <contextParameter comment="" name="mysqldbTarget_Database" prompt="mysqldbTarget_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="lacrimedata" xmi:id="_FQ7AmmQAEe6wEN0bUIFaRw"/>
+    <contextParameter comment="" name="mysqldbTarget_Server" prompt="mysqldbTarget_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" xmi:id="_FQ7Am2QAEe6wEN0bUIFaRw"/>
+    <contextParameter comment="" name="mysqldbTarget_AdditionalParams" prompt="mysqldbTarget_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" xmi:id="_FQ7AnGQAEe6wEN0bUIFaRw"/>
+    <contextParameter comment="" name="mysqldbTarget_Password" prompt="mysqldbTarget_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:oeTb1IA5rpU3O5Osid/TnOvU54nJBSoEItVaRl7nbq2VHrKMljirKQ==" xmi:id="_FQ7AnWQAEe6wEN0bUIFaRw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Test" xmi:id="_FQ7AnmQAEe6wEN0bUIFaRw">
+    <contextParameter comment="" name="mysqldbTarget_Port" prompt="mysqldbTarget_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306" xmi:id="_FQ7An2QAEe6wEN0bUIFaRw"/>
+    <contextParameter comment="" name="mysqldbTarget_Login" prompt="mysqldbTarget_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="root" xmi:id="_FQ7AoGQAEe6wEN0bUIFaRw"/>
+    <contextParameter comment="" name="mysqldbTarget_Database" prompt="mysqldbTarget_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="lacrimedata" xmi:id="_FQ7AoWQAEe6wEN0bUIFaRw"/>
+    <contextParameter comment="" name="mysqldbTarget_Server" prompt="mysqldbTarget_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" xmi:id="_FQ7AomQAEe6wEN0bUIFaRw"/>
+    <contextParameter comment="" name="mysqldbTarget_AdditionalParams" prompt="mysqldbTarget_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" xmi:id="_FQ7Ao2QAEe6wEN0bUIFaRw"/>
+    <contextParameter comment="" name="mysqldbTarget_Password" prompt="mysqldbTarget_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:j+GbKUl664gU5IQtGvdy9X7O37qXv67O17yfyfaMFKzOqztW84CPFQ==" xmi:id="_FQ7ApGQAEe6wEN0bUIFaRw"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_be39248e-199a-4300-8377-c229b1e76467"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>/C2YUED6f07XVSStqV/FdRLpr8K66nqU7W2zAdh34/5x/3a2fihhGr941GEgOjJQEcjCBjRrff4P&#13;
+pApQyWn9/Q==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_bcbd65c2-d976-4522-b92a-c5025c80582d"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>bH7xzZqEEO8/JrWZ04SR99uz3HJ+vCPqhZ9pbvhD0ewkQL73W4zdtsj5+bS7WNyCedgE96Lq0NzW&#13;
+hHqAecexjQ==</DigestValue></Reference></SignedInfo><SignatureValue>M/iai9wShPZYZ8oDtufEyNVPCC1PeYFd+Sp4DWXqAzX7Nfe/hTI1xnLaPORINGdrD2J2D5zNGMtL&#13;
+zs+lPzDMFXm08/x1b2d4hoESfq04Qy+xkwKRWR/+3ecg+SOoX/FucFYMyWDqgimARCowaBFw7Cg0&#13;
+9PUx+J4N4TW3LKdWnbJVQqFVmGxOV0RmaHG0PdmUZSipUk4f+H7qAe5T24dsT5zVEHBDYwsiSqaj&#13;
+B6TIaqRfHVd3TQVMClZ8cvSKR1TUDfCk+DULpdqym9LCQWEQGXZY/BZSDf1jODvT9WBXKaeWhOec&#13;
+2qwHYSD/ghrn+qx0yjHxbze9y1VHBLmKlTQg3Q==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -43,4 +59,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_e1cccab5-b3aa-4bad-be6a-4d7c50b1173a" Target="#_0957d624-ca68-4db3-ab5b-f8e4abe8fc34"><Timestamp>2023-10-06 23:06:21</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_bcbd65c2-d976-4522-b92a-c5025c80582d" Target="#_be39248e-199a-4300-8377-c229b1e76467"><Timestamp>2023-10-06 04:23:21</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
